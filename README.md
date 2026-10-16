@@ -2,6 +2,11 @@
 
 A small tool that pulls tech/startup news from RSS feeds, tags it against a keyword list, stores it in SQLite, and shows it in a password-protected Streamlit dashboard for triage (mark articles as new / watching / story lead, add notes).
 
+It pulls from 14 South African and global tech and business sources every day, tags each article by topic (AI, startups, JSE and more), and lets me flag leads and add notes. A scheduled cloud job keeps it updated automatically. The feed list and tagging keywords can be edited on the backend, so it can be pointed at any industry.
+
+Link: https://news-dashboard-dntwtduholqrsxccj82cy2.streamlit.app/
+Password: Available on request 
+
 A GitHub Actions workflow runs the ingest daily and commits the refreshed database back to the repo, so the dashboard stays current without anyone needing to run anything by hand.
 
 ## Project layout
